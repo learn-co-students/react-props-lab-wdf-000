@@ -1,7 +1,8 @@
-const React = require('react');
+import React from 'react';
+// const React = require('react');
 const { shallow } = require('enzyme');
-
-const Spaceship = require('../components/Spaceship');
+import Spaceship from '../components/Spaceship';
+// const Spaceship = require('../components/Spaceship');
 
 describe('<Spaceship />', () => {
   describe('Props', function () {

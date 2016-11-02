@@ -1,7 +1,9 @@
-const React = require('react');
-const ReactDOM = require('react-dom');
-
-const Spaceship = require('./components/Spaceship');
+import React from 'react';
+import ReactDOM from 'react-dom';
+// const React = require('react');
+// const ReactDOM = require('react-dom');
+import Spaceship from './components/Spaceship';
+// const Spaceship = require('./components/Spaceship');
 
 ReactDOM.render(
   <Spaceship name="Millennium Falcon" />,
