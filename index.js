@@ -6,7 +6,10 @@ import Spaceship from './components/Spaceship';
 // const Spaceship = require('./components/Spaceship');
 
 ReactDOM.render(
-  <Spaceship name="Millennium Falcon" />,
+  <Spaceship
+  name="Millennium Falcon"
+  speed="34"
+  />,
   document.getElementById('main')
 );
 
