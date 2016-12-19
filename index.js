@@ -1,6 +1,5 @@
 const React = require('react');
 const ReactDOM = require('react-dom');
-
 const Spaceship = require('./components/Spaceship');
 
 ReactDOM.render(
